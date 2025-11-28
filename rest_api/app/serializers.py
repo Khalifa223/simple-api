@@ -4,7 +4,7 @@ from .models import Book, Contact, Newsletter
 class BookSerializer(serializers.ModelSerializer):
     class Meta:
         model = Book
-        fields = ['id', 'email', 'phone', 'people', 'message']
+        fields = ['id', 'email', 'phone', 'book_at', 'book_at_time', 'people', 'message']
         
 class ContactSerializer(serializers.ModelSerializer):
     class Meta:

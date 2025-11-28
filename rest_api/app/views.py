@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from .models import Book, Booking, Contact, Newsletter
+from .models import Book, Contact, Newsletter
 from .serializers import BookSerializer, ContactSerializer, NewsletterSerializer
 # Create your views here.
     

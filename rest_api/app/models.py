@@ -8,6 +8,8 @@ class Book(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
     phone = models.IntegerField()
+    book_at = models.DateField()
+    book_at_time = models.TimeField()
     people = models.IntegerField()
     message = models.TextField()
     
